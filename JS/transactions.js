@@ -68,7 +68,7 @@ function getTransactions(){
             let type = "Entrada";
 
             if(item.type ==="2") {
-                let type = "Saída"
+                 type = "Saída"
             }
            
             transactionsHtml += `
